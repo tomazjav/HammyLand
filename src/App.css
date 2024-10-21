@@ -36,3 +36,275 @@
     transform: rotate(360deg);
   }
 }
+
+html, body{
+  margin:0;
+  padding:0;
+  background-color: #282c34;
+  min-width: 1140px; /* this is the important part*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: Sans-serif;
+}
+
+p, strong {
+  color: aliceblue;
+  font-size: 30px;
+  font-family: Sans-serif; 
+}
+
+span {
+  color: aliceblue;
+  font-size: 22px;
+  font-family: Sans-serif; 
+}
+
+a {
+  color:aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 7px;
+  padding: 7px;
+  border-radius: 5%;
+  font-family: Sans-serif;
+  font-weight: 600;
+}
+
+a:focus {
+  color:#2d3138d1;
+}
+
+a:hover {
+  color:#2d3138d1;
+}
+
+button {
+  font-size: 22px;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  background-color: #61dafb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid aliceblue;
+}
+
+.navbar .links {
+  text-align: center;
+  align-items: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  margin-left: 10px;
+  width: 300px;
+}
+
+.user {
+  display: flex;
+  justify-content: right;
+  margin-right: 70px;
+  align-items: center;
+  width: 400px;
+}
+
+.user p {
+  color:aliceblue;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 7px;
+  padding: 7px;
+  border-radius: 5%;
+  font-family: Sans-serif;
+  font-weight: 750;
+}
+
+.user img {
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.welcome {
+  width: 500px;
+  height: 500px;
+  opacity: 90%;
+  position: relative;
+  margin-top: 80px;
+}
+
+.hammy-logo {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.hammyland {
+  position: absolute;
+  left: 60px;
+  top: 18px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+input {
+  font-size: 22px;
+  font-weight: 500;
+  background-color: #61dafb3e;
+  border: 0;
+  padding: 5px;
+  border-radius: 6px;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
+input::placeholder, textarea::placeholder {
+  color: rgba(240, 248, 255, 0.5); 
+}
+
+textarea:focus, input:focus{
+  outline: none;
+  border: #47d6fd;
+  border-style: ridge;
+}
+
+textarea {
+  font-size: 22px;
+  font-weight: 500;
+  color: aliceblue;
+  background-color: #61dafb3e;
+  border-radius: 6px;
+  text-align: center;
+  display: block;
+  margin: 20px;
+  width: 650px;
+  height: 350px;
+}
+
+.submit {
+  appearance: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color:aliceblue;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  /* display: block; */
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 15px;
+  background-color: #61dafb3e;
+  outline:#61dafb;
+  border: none;
+}
+
+.submit:hover {
+  background-color: #47d6fd;
+}
+
+form {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logout {
+  right: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.feed {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.postContainer {
+  border: aliceblue 2px;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 30px;
+  background: #47d6fd72;
+}
+
+.postTitle {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.postDescription {
+  font-size: 18px;
+}
+
+.likebutton {
+  margin-left: 30px;
+}
+
+.likebutton:hover {
+  opacity: 80%;
+}
+
+.likeCount {
+  font-size: 12px;
+}
+
+.loginpage {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginContainer {
+  border: #47d6fd;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  border-radius: 30px;
+  background: #47d6fd3e;
+  width: 500px;
+}
+
+.googleSign {
+  position: relative;
+  margin-top: -2px;
+  margin-bottom: -5px;
+  margin-right: 4px;
+}
